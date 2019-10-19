@@ -1,0 +1,52 @@
+/* Basic styling elements */
+/* Nothing fancy going on here */
+body {
+    background: white;
+}
+li {
+    padding: 5px;
+    margin: 5px;
+}
+.label {
+    font-weight: bold;
+}
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: white;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+
+#newBurgerInput{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+}
+
+#addButton{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h2{
+    padding-top: 3rem; 
+    padding-bottom: 2rem; 
+    font-family: Impact; 
+    transform: scale(2,1.8);
+}
+
+h5{
+    margin-bottom: 1rem;
+}
+
+img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40rem;
+    height: 100%;
+}

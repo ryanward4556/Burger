@@ -2,9 +2,11 @@
 const mysql = require("mysql");
 let connection;
 
+const JAWSDB_URL = "mysql://y8p5y3hfmabz96i2:plnuii5sf4p2j01t@t89yihg12rw77y6f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/c0aa3t77holc28ex";
+
 // Define connection parameters to JAWSDB or local server
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
+if (JAWSDB_URL) {
+  connection = mysql.createConnection(JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: "localhost",
